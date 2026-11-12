@@ -1,0 +1,39 @@
+{
+  "clinicName": "Dr. Maharana Bone & Joint Clinic",
+  "doctorName": "Dr. Pradeepta Kumar Maharana",
+  "degrees": "MBBS, DNB (Orthopaedics)",
+  "fellowships": "Fellowship in Knee & Shoulder Arthroscopy, Fellowship in Robotic Knee Replacement",
+  "phone": "+91 99370 12543",
+  "whatsapp": "919937012543",
+  "email": "contact@drpradeeptamaharana.com",
+  "address": "Modern Health Care, Ekamra Marg, Near Airport New Road, Unit-6, Ganga Nagar",
+  "landmark": "Near Airport New Road",
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "opdTimings": "All days, 6:00 PM – 10:00 PM",
+  "daysOpen": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "blockedDates": [],
+  "slotDurationMinutes": 20,
+  "availableTimeSlots": [
+    "6:00 PM",
+    "6:20 PM",
+    "6:40 PM",
+    "7:00 PM",
+    "7:20 PM",
+    "7:40 PM",
+    "8:00 PM",
+    "8:20 PM",
+    "8:40 PM",
+    "9:00 PM",
+    "9:20 PM",
+    "9:40 PM"
+  ]
+}

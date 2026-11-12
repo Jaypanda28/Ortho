@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-primary: #071B35;
+  --navy-dark: #0B2342;
+  --navy-deep: #040E1B;
+  --gold-royal: #C6A15B;
+  --gold-soft: #D8BC83;
+  --white: #FFFFFF;
+  --light-bg: #F7F8FA;
+  --text-dark: #071B35;
+  --text-body: #526174;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-dark);
+  background-color: var(--white);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+h1, h2, h3, .font-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Luxury Gold & Navy Utilities */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F0DBA5 0%, #C6A15B 50%, #926F32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D8BC83 0%, #C6A15B 50%, #B08A44 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 0 1px rgba(198, 161, 91, 0.35), 0 8px 32px rgba(198, 161, 91, 0.15);
+}
+
+.navy-hero-pattern {
+  background-color: #071B35;
+  background-image: 
+    radial-gradient(circle at 80% 20%, rgba(198, 161, 91, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 10% 80%, rgba(11, 35, 66, 0.8) 0%, transparent 50%),
+    linear-gradient(rgba(198, 161, 91, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(198, 161, 91, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+.subtle-grid {
+  background-image: 
+    linear-gradient(to right, rgba(7, 27, 53, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(7, 27, 53, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #071B35;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6A15B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D8BC83;
+}
+

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "inq-1",
+    "name": "Manoj Kumar Nayak",
+    "phone": "+91 98530 44123",
+    "email": "manoj.nayak@rediffmail.com",
+    "subject": "Insurance and Cashless Mediclaim for Knee Replacement",
+    "message": "Hello Doctor, do you accept Star Health Cashless insurance for Robotic Knee surgery? Which affiliated hospitals do you perform surgeries at?",
+    "createdAt": "2026-11-11T12:00:00Z",
+    "status": "REPLIED"
+  },
+  {
+    "id": "inq-2",
+    "name": "Priyanka Rout",
+    "phone": "+91 94380 91234",
+    "email": "priyanka.rout@gmail.com",
+    "subject": "Post-ACL Surgery Rehabilitation Protocol",
+    "message": "I had an ACL injury last month. Do you provide FIFA-certified sports rehabilitation guidelines and return-to-sport testing at your clinic?",
+    "createdAt": "2026-11-12T07:30:00Z",
+    "status": "UNREAD"
+  }
+]
